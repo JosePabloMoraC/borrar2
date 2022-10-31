@@ -49,6 +49,6 @@ void MainFrame::OnTimerMF(wxTimerEvent& event) {
 }
 
 void MainFrame::OnButtonClicked(wxCommandEvent& evt) {
-    this->Close();
+    Close(true);
     evt.Skip();
 }

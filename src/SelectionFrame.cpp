@@ -66,7 +66,7 @@ void SelectionFrame::OnButtonClicked(wxCommandEvent& evt) {
 	mainFrame->SetClientSize(800, 600);
 	mainFrame->Center();
 	mainFrame->Show();
-	//this->Close();
+	this->Close();
 }
 
 void SelectionFrame::OnInitGame() {
